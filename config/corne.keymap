@@ -70,10 +70,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────────╮
         //│  TAB     │  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │ ESC/BCSP     │
-            &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P     &th BSPC ESC
+            &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P     &ht BSPC ESC
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│  CTRL    │  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  ;       │ '            │
-            &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J     &ht LGUI K  &ht LALT L  &kp SEMI   &ht  LCTRL SQT
+            &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J     &ht LGUI K  &ht LALT L  &kp SEMI   &ht  LkCTRL SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│  SHIFT   │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │  /       │ ENTER        │
            &kp LSHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp M       &kp COMMA  &kp DOT    &kp FSLH   &kp ENTER
