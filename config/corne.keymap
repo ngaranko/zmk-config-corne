@@ -78,7 +78,7 @@
         //│  SHIFT   │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │  /       │ ENTER        │
            &kp LSHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp M       &kp COMMA  &kp DOT    &kp FSLH   &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼──────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──┼───────┴──────────────╯
-                                   &lt LEF SPACE &kp LSHIFT  &kp LGUI             &ht LALT          &kp LCTRL     &lt RIG SPACE
+                                   &lt LEF SPACE &kp LSHIFT  &kp LGUI             &kp LALT          &kp LCTRL     &lt RIG SPACE
         //                        ╰─────────────┴──────────┴────────────────╯   ╰────────────────┴─────────────┴───────────────╯
             >;
         };
