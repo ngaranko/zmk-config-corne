@@ -78,7 +78,7 @@
         //│  SHIFT   │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │  /       │ ENTER        │
            &kp LSHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp M       &kp COMMA  &kp DOT    &kp FSLH   &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼──────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──┼───────┴──────────────╯
-                                   &lt LEF SPACE  &kp LSHIFT  &ht LGUI SPACE      &ht LALT SPACE  &kp LCTRL     &lt RIG SPACE
+                                   &lt LEF SPACE &kp LSHIFT  &kp LGUI             &ht LALT          &kp LCTRL     &lt RIG SPACE
         //                        ╰─────────────┴──────────┴────────────────╯   ╰────────────────┴─────────────┴───────────────╯
             >;
         };
@@ -102,8 +102,8 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────────╮
-        //│          │ ESC      │  @       │  #       │  $       │  %       │   │  ^       │  &       │  *       │  `       │  ~       │              │
-            &kp ESC     &kp ESC     &kp AT     &kp HASH   &kp DLLR   &kp PRCNT     &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE  &kp TILDE  &trans
+        //│          │ !        │  @       │  #       │  $       │  %       │   │  ^       │  &       │  *       │  `       │  ~       │              │
+            &kp ESC    &kp EXCL    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT     &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE  &kp TILDE  &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │ "        │  [       │  {       │  (       │          │   │   /      │  -       │  =       │     :    │  ;       │              │
             &trans     &kp DQT     &kp LBKT   &kp LBRC   &kp LPAR   &trans         &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON  &kp SEMI   &trans
