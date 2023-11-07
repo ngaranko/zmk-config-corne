@@ -58,8 +58,13 @@
         compatible = "zmk,combos";
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp TAB>;
+            key-positions = <6 7>;
+            bindings =
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp X>
+                , <&macro_tap &kp S>
+                , <&macro_release &kp LCTRL>
+                ;
         };
     };
 
@@ -78,7 +83,7 @@
         //│  SHIFT   │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │  /       │ ENTER        │
            &kp LSHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp M       &kp COMMA  &kp DOT    &kp FSLH   &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼──────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──┼───────┴──────────────╯
-                                   &lt LEF SPACE &kp LALT  &kp LGUI             &kp LGUI          &kp LALT     &lt RIG SPACE
+                                   &kp LGUI       &kp LSHIFT  &lt LEF SPACE        &lt RIG SPACE     &kp LCTRL    &kp LALT
         //                        ╰─────────────┴──────────┴────────────────╯   ╰────────────────┴─────────────┴───────────────╯
             >;
         };
