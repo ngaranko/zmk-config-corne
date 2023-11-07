@@ -52,13 +52,11 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
-    };
 
-    combos {
-        compatible = "zmk,combos";
-        combo_tab {
-            timeout-ms = <50>;
-            key-positions = <6 7>;
+        emacs_save: emacs_save {
+            label = "EMACS_SAVE";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp X>
@@ -68,6 +66,14 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&emacs_save>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -83,7 +89,7 @@
         //│  SHIFT   │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │  /       │ ENTER        │
            &kp LSHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp M       &kp COMMA  &kp DOT    &kp FSLH   &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼──────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──┼───────┴──────────────╯
-                                   &kp LGUI       &kp LSHIFT  &lt LEF SPACE        &lt RIG SPACE     &kp LCTRL    &kp LALT
+                                    &kp LGUI     &kp LSHIFT  &lt LEF SPACE        &lt RIG SPACE     &kp LCTRL    &kp LALT
         //                        ╰─────────────┴──────────┴────────────────╯   ╰────────────────┴─────────────┴───────────────╯
             >;
         };
