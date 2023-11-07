@@ -59,7 +59,7 @@
         combo_tab {
             timeout-ms = <50>;
             key-positions = <6 7>;
-            bindings =
+            bindings
                 = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp X>
                 , <&macro_tap &kp S>
