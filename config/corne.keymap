@@ -102,7 +102,7 @@
             &kp TILDE  &kp PIPE   &trans      &trans    &trans     &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp RARW   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          │          │   │          │          │          │          │ PAGE UP  │ PAGE DWN     │
-            &trans    &trans     &trans     &trans      &trans     &trans         &trans     &trans     &trans     &trans     &kp PG_UP  &kp PG_DN
+            &trans    &trans     &trans     &trans      &trans     &trans         &kp RGUI   &kp LALT  &trans     &trans     &kp PG_UP  &kp PG_DN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────────╯
                                              &trans     &trans     &trans         &trans     &trans     &trans
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
