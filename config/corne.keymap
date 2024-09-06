@@ -83,12 +83,12 @@
             &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│  CTRL    │  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  ;       │ '            │
-             &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J    &ht RGUI K &ht LALT L  &kp SEMI   &ht LCTRL SQT
+             &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J    &hlt RGUI K &ht LALT L  &kp SEMI   &ht LCTRL SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│  SHIFT   │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │  /       │ ENTER        │
            &kp LSHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp M       &kp COMMA  &kp DOT    &kp FSLH   &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼──────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──┼───────┴──────────────╯
-                                    &kp LGUI     &kp LSHIFT  &lt LEF SPACE        &lt RIG SPACE     &kp LGUI    &kp LALT
+                                    &kp LGUI     &kp LSHIFT  &lt LEF SPACE        &lt RIG SPACE     &kp LCTRL    &kp LALT
         //                        ╰─────────────┴──────────┴────────────────╯   ╰────────────────┴─────────────┴───────────────╯
             >;
         };
@@ -99,10 +99,10 @@
             &kp ESC    &kp N1      &kp N2     &kp N3     &kp N4     &kp N5        &kp N6     &kp N7     &kp N8     &kp UARW   &trans      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          |          |   | 9        │ 0        │ DOWN     │ UP       │ RIGHT    │              │
-            &kp TILDE &kp LBKT   &kp RBKT   &kp MINUS  &kp EQUAL  &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp RARW   &trans
+            &trans     &trans     &trans      &trans    &trans     &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp RARW   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          │          │   │          │          │          │          │ PAGE UP  │ PAGE DWN     │
-            &trans    &trans     &trans     &trans      &trans     &trans         &kp BSLH   &kp FSLH   &kp PIPE   &trans     &kp PG_UP  &kp PG_DN
+            &trans    &trans     &trans     &trans      &trans     &trans         &trans     &trans     &trans     &trans     &kp PG_UP  &kp PG_DN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────────╯
                                              &trans     &trans     &trans         &trans     &trans     &trans
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
