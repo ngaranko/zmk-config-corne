@@ -99,10 +99,10 @@
             &trans    &kp N1      &kp N2     &kp N3     &kp N4     &kp N5        &kp N6     &kp N7     &kp N8     &kp UARW   &trans      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          |          |   | 9        │ 0        │ DOWN     │ UP       │ RIGHT    │              │
-            &trans     &trans     &trans      &trans    &trans     &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp RARW   &trans
+            &trans    &kp TILDE   &kp LBKT   &kp RBKT   &kp PIPE   &trans         &kp N9     &kp N0     &trans   &trans      &kp RARW   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          │          │   │          │          │          │          │ PAGE UP  │ PAGE DWN     │
-            &trans    &trans     &trans     &trans      &trans     &trans         &trans     &trans     &trans     &trans     &kp PG_UP  &kp PG_DN
+            &trans    &trans     &trans     &trans      &trans     &trans         &kp MINUS  &kp EQUAL  &trans     &trans     &kp PG_UP  &kp PG_DN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────────╯
                                              &trans     &trans     &trans         &trans     &trans     &trans
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
