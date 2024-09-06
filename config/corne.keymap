@@ -96,13 +96,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────────╮
         //│          │ 1        │  2       │  3       │  4       │  5       │   │ 6        │ 7        │ 8        │ UP       │          │   C^/        │
-            &kp ESC    &kp N1      &kp N2     &kp N3     &kp N4     &kp N5        &kp N6     &kp N7     &kp N8     &kp UARW   &trans      &trans
+            &trans    &kp N1      &kp N2     &kp N3     &kp N4     &kp N5        &kp N6     &kp N7     &kp N8     &kp UARW   &trans      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          |          |   | 9        │ 0        │ DOWN     │ UP       │ RIGHT    │              │
-            &trans    &kp PIPE   &kp TILDE    &trans    &trans     &trans         &kp N9     &kp N0     &trans     &trans   &kp RARW   &trans
+            &trans     &trans     &trans      &trans    &trans     &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp RARW   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          │          │   │          │          │          │          │ PAGE UP  │ PAGE DWN     │
-            &trans    &trans     &trans     &trans      &trans     &trans         &kp MINUS  &kp PLUS  &kp BSLH    &trans     &kp PG_UP  &kp PG_DN
+            &trans    &trans     &trans     &trans      &trans     &trans         &trans     &trans     &trans     &trans     &kp PG_UP  &kp PG_DN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────────╯
                                              &trans     &trans     &trans         &trans     &trans     &trans
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
