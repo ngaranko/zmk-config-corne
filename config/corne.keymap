@@ -99,7 +99,7 @@
             &kp ESC    &kp N1      &kp N2     &kp N3     &kp N4     &kp N5        &kp N6     &kp N7     &kp N8     &kp UARW   &trans      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          |          |   | 9        │ 0        │ DOWN     │ UP       │ RIGHT    │              │
-            &trans    &kp PIPE   &kp TILDE    &trans    &trans     &trans         &kp N9     &kp N0     &trans     &kp trans   &kp RARW   &trans
+            &trans    &kp PIPE   &kp TILDE    &trans    &trans     &trans         &kp N9     &kp N0     &trans     &trans   &kp RARW   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────────┤
         //│          │          │          │          │          │          │   │          │          │          │          │ PAGE UP  │ PAGE DWN     │
             &trans    &trans     &trans     &trans      &trans     &trans         &kp MINUS  &kp PLUS  &kp BSLH    &trans     &kp PG_UP  &kp PG_DN
