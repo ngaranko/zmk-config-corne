@@ -12,9 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Cache west modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-zephyr-modules
+        uses: actions/cache@v4
         with:
           path: |
             modules/
@@ -22,9 +20,9 @@ jobs:
             zephyr/
             bootloader/
             zmk/
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('manifest-dir/west.yml') }}
+          key: ${{ runner.os }}-build-zmk-build-${{ hashFiles('manifest-dir/west.yml') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-zmk-build-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - name: West Init
